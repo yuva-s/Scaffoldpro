@@ -1,0 +1,19 @@
+.custom-button {
+  font-size: 16px;
+  width: 100%; /* Adjust the font size here */
+  margin-top: 20px;
+}
+.custom-form-item .ant-form-item-label > label {
+  font-size: 16px;
+
+  /* Set the desired text size */
+}
+/* #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  } */
+.login-form-forgot {
+  float: right;
+}
+.fontstyle1 {
+  padding-top: 40px;
+}

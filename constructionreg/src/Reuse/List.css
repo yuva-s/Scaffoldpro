@@ -1,0 +1,87 @@
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logocontainer {
+  display: flex;
+  align-items: center;
+  padding-right: 650px;
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  /* margin-right:40px;
+    padding-left: 90px; */
+  padding-left: 50px;
+}
+
+.alignItem {
+  padding-bottom: 10px;
+  padding-left: 350px;
+}
+
+.listItem {
+  /* padding-right: 10px; */
+  margin: 10px;
+  /* padding-bottom: 10px; */
+  text-decoration: none;
+  /* padding-left:4px; */
+  color: rgb(19, 18, 18);
+  padding: 40px;
+  cursor: pointer;
+  /* padding-bottom: 8%; */
+  font-size: larger;
+}
+
+.listItem:hover,
+.listItem.active {
+  color: #122cc5;
+  cursor: pointer;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+
+.searchBox input {
+  margin-right: 30px;
+  padding: 5px;
+  width: 450px;
+  height: 25px;
+  border-radius: 2px;
+  border: 2px solid #ccc; /* Add a border with 1 pixel width and #ccc color */
+}
+
+.searchBox button {
+  padding: 10px 20px;
+  background-color: #050505;
+  color: #555353;
+  border: none;
+  cursor: pointer;
+}
+
+.searchBox button:hover {
+  background-color: #122cc5;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.listItemContainer {
+  display: flex;
+  justify-content: center;
+}
